@@ -1,0 +1,60 @@
+[03-Jun-2016 06:56:21 UTC] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home/ubuntu/workspace/test/src/Controller/HelloController.php on line 12
+[03-Jun-2016 06:56:21 UTC] PHP Stack trace:
+[03-Jun-2016 06:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/test/webroot/index.php:0
+[03-Jun-2016 06:56:21 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/test/webroot/index.php:37
+[03-Jun-2016 06:56:21 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[03-Jun-2016 06:56:21 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[03-Jun-2016 06:56:21 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[03-Jun-2016 06:56:21 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[03-Jun-2016 06:56:21 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[03-Jun-2016 06:56:21 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[03-Jun-2016 06:56:21 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[03-Jun-2016 06:56:21 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Core/App.php:64
+[03-Jun-2016 06:56:21 UTC] PHP  11. class_exists() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Core/App.php:151
+[03-Jun-2016 06:56:21 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Core/App.php:151
+[03-Jun-2016 06:56:21 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Core/App.php:151
+[03-Jun-2016 06:56:21 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/test/vendor/composer/ClassLoader.php:301
+[03-Jun-2016 06:57:11 UTC] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home/ubuntu/workspace/test/src/Controller/HelloController.php on line 12
+[03-Jun-2016 06:57:11 UTC] PHP Stack trace:
+[03-Jun-2016 06:57:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/test/webroot/index.php:0
+[03-Jun-2016 06:57:11 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/test/webroot/index.php:37
+[03-Jun-2016 06:57:11 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[03-Jun-2016 06:57:11 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[03-Jun-2016 06:57:11 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[03-Jun-2016 06:57:11 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[03-Jun-2016 06:57:11 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[03-Jun-2016 06:57:11 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[03-Jun-2016 06:57:11 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[03-Jun-2016 06:57:11 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Core/App.php:64
+[03-Jun-2016 06:57:11 UTC] PHP  11. class_exists() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Core/App.php:151
+[03-Jun-2016 06:57:11 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Core/App.php:151
+[03-Jun-2016 06:57:11 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Core/App.php:151
+[03-Jun-2016 06:57:11 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/test/vendor/composer/ClassLoader.php:301
+[07-Jun-2016 02:11:51 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/ubuntu/workspace/test/src/Template/Hello/index.ctp on line 18
+[07-Jun-2016 02:11:51 UTC] PHP Stack trace:
+[07-Jun-2016 02:11:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/test/webroot/index.php:0
+[07-Jun-2016 02:11:51 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/test/webroot/index.php:37
+[07-Jun-2016 02:11:51 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[07-Jun-2016 02:11:51 UTC] PHP   4. Cake\Controller\Controller->render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:120
+[07-Jun-2016 02:11:51 UTC] PHP   5. Cake\View\View->render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Controller/Controller.php:611
+[07-Jun-2016 02:11:51 UTC] PHP   6. Cake\View\View->_render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/View/View.php:587
+[07-Jun-2016 02:11:51 UTC] PHP   7. Cake\View\View->_evaluate() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/View/View.php:952
+[07-Jun-2016 02:11:51 UTC] PHP   8. include() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/View/View.php:992
+[07-Jun-2016 02:42:51 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home/ubuntu/workspace/test/src/Template/Hello/index.ctp on line 17
+[07-Jun-2016 02:42:51 UTC] PHP Stack trace:
+[07-Jun-2016 02:42:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/test/webroot/index.php:0
+[07-Jun-2016 02:42:51 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/test/webroot/index.php:37
+[07-Jun-2016 02:42:51 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[07-Jun-2016 02:42:51 UTC] PHP   4. Cake\Controller\Controller->render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:120
+[07-Jun-2016 02:42:51 UTC] PHP   5. Cake\View\View->render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Controller/Controller.php:611
+[07-Jun-2016 02:42:51 UTC] PHP   6. Cake\View\View->_render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/View/View.php:587
+[07-Jun-2016 02:42:51 UTC] PHP   7. Cake\View\View->_evaluate() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/View/View.php:952
+[07-Jun-2016 06:53:11 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/test/src/Template/Persons/add.ctp on line 3
+[07-Jun-2016 06:53:11 UTC] PHP Stack trace:
+[07-Jun-2016 06:53:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/test/webroot/index.php:0
+[07-Jun-2016 06:53:11 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/test/webroot/index.php:37
+[07-Jun-2016 06:53:11 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[07-Jun-2016 06:53:11 UTC] PHP   4. Cake\Controller\Controller->render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:120
+[07-Jun-2016 06:53:11 UTC] PHP   5. Cake\View\View->render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Controller/Controller.php:611
+[07-Jun-2016 06:53:11 UTC] PHP   6. Cake\View\View->_render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/View/View.php:587
+[07-Jun-2016 06:53:11 UTC] PHP   7. Cake\View\View->_evaluate() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/View/View.php:952
