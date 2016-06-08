@@ -51,6 +51,9 @@ class PersonsTable extends Table
 
         $validator
             ->allowEmpty('mail');
+        
+        $validator
+            ->allowEmpty('gazo');
 
         return $validator;
     }

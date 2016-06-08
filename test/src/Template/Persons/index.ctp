@@ -7,6 +7,7 @@
             <th>NAME</th>
             <th>AGE</th>
             <th>MAIL</th>
+            <th>GAZO</th>
         </tr>
     </thead>
     <tbody>
@@ -16,6 +17,7 @@
             <td><?= h($person->name) ?></td>
             <td><?= h($person->age) ?></td>
             <td><?= h($person->mail) ?></td>
+            <td><?= $person->gazo ?></td>
         </tr>
     <?php endforeach; ?>
     </tbody>

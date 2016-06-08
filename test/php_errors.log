@@ -58,3 +58,16 @@
 [07-Jun-2016 06:53:11 UTC] PHP   5. Cake\View\View->render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Controller/Controller.php:611
 [07-Jun-2016 06:53:11 UTC] PHP   6. Cake\View\View->_render() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/View/View.php:587
 [07-Jun-2016 06:53:11 UTC] PHP   7. Cake\View\View->_evaluate() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/View/View.php:952
+[07-Jun-2016 07:32:49 UTC] PHP Fatal error:  Call to a member function allowEmpty() on a non-object in /home/ubuntu/workspace/test/src/Model/Table/PersonsTable.php on line 56
+[07-Jun-2016 07:32:49 UTC] PHP Stack trace:
+[07-Jun-2016 07:32:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/test/webroot/index.php:0
+[07-Jun-2016 07:32:49 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/test/webroot/index.php:37
+[07-Jun-2016 07:32:49 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[07-Jun-2016 07:32:49 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[07-Jun-2016 07:32:49 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[07-Jun-2016 07:32:49 UTC] PHP   6. App\Controller\PersonsController->add() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[07-Jun-2016 07:32:49 UTC] PHP   7. Cake\ORM\Table->patchEntity() /home/ubuntu/workspace/test/src/Controller/PersonsController.php:10
+[07-Jun-2016 07:32:49 UTC] PHP   8. Cake\ORM\Marshaller->merge() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/ORM/Table.php:2099
+[07-Jun-2016 07:32:49 UTC] PHP   9. Cake\ORM\Marshaller->_validate() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/ORM/Marshaller.php:488
+[07-Jun-2016 07:32:49 UTC] PHP  10. Cake\ORM\Table->validator() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/ORM/Marshaller.php:192
+[07-Jun-2016 07:32:49 UTC] PHP  11. App\Model\Table\PersonsTable->validationDefault() /home/ubuntu/workspace/test/vendor/cakephp/cakephp/src/Validation/ValidatorAwareTrait.php:106
