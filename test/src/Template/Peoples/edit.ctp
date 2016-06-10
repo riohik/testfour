@@ -10,6 +10,6 @@
             echo $this->Form->input('image',array('type'=>"file",'multiple'));
         ?>
     </fieldset>
-    <?= $this->Form->button ?>
+    <?= $this->Form->button('submit') ?>
     <?= $this->Form->end() ?>
 </div>
